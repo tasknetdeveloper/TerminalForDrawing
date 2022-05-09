@@ -22,13 +22,14 @@ namespace Model
         Circle,
         Rectangle,
         Triangle,
+        Square
     }
 
     public enum FigureParameterName
     {
         Empty = 0,
         Radius,
-        SideSize,
+        Sidesize,
         H,
         W,
         Points
