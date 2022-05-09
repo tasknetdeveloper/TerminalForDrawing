@@ -16,6 +16,7 @@ namespace TerminalTest
             "Examples of the command line:\r\n" +
                 "Screen circle radius=50\r\n" +
                 "Screen rectangle w=50 h=170\r\n" +
+                "File Square Sidesize = 50\r\n"+
                 "File Rectangle W=50 H=170\r\n" +
                 "File circle radius=50\r\n" +
                 "File Triangle Points=1,50;10,80;50,50;\r\n";
