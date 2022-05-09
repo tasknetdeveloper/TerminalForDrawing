@@ -6,7 +6,7 @@ using Model;
 
 namespace TerminalTest.Model
 {
-    internal class Square : Figure, IFigure
+    public class Square : Figure, IFigure
     {
         private CommonBase CommonBase = new();
         public Canvas cnv { get; set; }
