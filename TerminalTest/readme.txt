@@ -12,3 +12,5 @@ File Triangle Points=1,1;20,20;10,10;
 File Triangle Points=1,50;10,80;50,50;
 
 screen circle radius=150
+
+File Square Sidesize=50
