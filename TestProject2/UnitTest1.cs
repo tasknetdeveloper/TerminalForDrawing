@@ -38,6 +38,19 @@ namespace TestProject2
             Assert.NotNull(rectangle);
             Assert.NotNull(result);
         }
+        
+        [WpfFact]
+        public void DrawSquare()
+        {
+            var square = new TerminalTest.Model.Square();
+
+            var d = new System.Collections.Generic.Dictionary<Model.FigureParameterName, object>();
+            d.Add(Model.FigureParameterName.Sidesize, 50);            
+            var result = square.Draw(new Canvas(), d);
+
+            Assert.NotNull(square);
+            Assert.NotNull(result);
+        }
 
         [WpfFact]
         public void DrawTriangle()
