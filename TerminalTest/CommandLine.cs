@@ -18,6 +18,7 @@ namespace TerminalTest
             listIFigure.Add(new Circle());
             listIFigure.Add(new Rectangle());
             listIFigure.Add(new Triangle());
+            listIFigure.Add(new Square());
 
             listIOutput.Add(new Email());
             listIOutput.Add(new File());
